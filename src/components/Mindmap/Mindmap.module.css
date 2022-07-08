@@ -1,0 +1,6 @@
+.Mindmap {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 500px;
+}
