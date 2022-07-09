@@ -1,6 +1,7 @@
 import React from 'react';
 import { MarkerType } from 'react-flow-renderer';
 
+const position = { x: 0, y: 0 };
 export const nodes = [
   {
     id: 'root',
@@ -17,7 +18,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 250, y: 250 },
+    position: position,
   },
   {
     id: '2',
@@ -34,7 +35,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 400, y: 150 },
+    position: position,
     sourcePosition: 'right',
     targetPosition: 'left',
   },
@@ -53,7 +54,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 400, y: 350 },
+    position: position,
     sourcePosition: 'right',
     targetPosition: 'left',
   },
@@ -83,7 +84,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 100, y: 350 },
+    position: position,
     sourcePosition: 'right',
     targetPosition: 'left',
   },
@@ -102,7 +103,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 600, y: 250 },
+    position: position,
     sourcePosition: 'right',
     targetPosition: 'left',
   },
@@ -121,7 +122,7 @@ export const nodes = [
       url: 'www.knovo.me',
       description: "this is the node's description",
     },
-    position: { x: 0, y: 250 },
+    position: position,
     sourcePosition: 'right',
     targetPosition: 'left',
   },

@@ -1,2 +1,18 @@
 .Node {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.Row {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.Child {
+  margin-left: 5px;
+}
+.Sibling {
+  margin-top: 5px;
 }
