@@ -2,6 +2,8 @@ import React from 'react';
 import { MarkerType } from 'react-flow-renderer';
 
 const position = { x: 0, y: 0 };
+export const edgeType = 'default';
+export const edgeAnimated = true;
 export const nodes = [
   {
     id: 'root',
@@ -133,17 +135,19 @@ export const edges = [
     id: 'eroot-2',
     source: 'root',
     target: '2',
-    type: 'smoothstep',
+    type: edgeType,
+    animated: edgeAnimated,
     label: 'this is an edge label',
     style: { stroke: 'blue' },
   },
-  { id: 'eroot-3', source: 'root', target: '3', type: 'smoothstep', style: { stroke: 'green' } },
+  { id: 'eroot-3', source: 'root', target: '3', type: edgeType, animated: edgeAnimated, style: { stroke: 'green' } },
   {
     id: 'eroot-4',
     source: 'root',
     target: '4',
-    animated: true,
-    type: 'smoothstep',
+    animated: edgeAnimated,
+    type: edgeType,
+    animated: edgeAnimated,
     label: 'animated edge',
     style: { stroke: 'black' },
   },
@@ -152,7 +156,8 @@ export const edges = [
     source: 'root',
     target: '5',
     label: 'edge with arrow head',
-    type: 'smoothstep',
+    type: edgeType,
+    animated: edgeAnimated,
     markerEnd: {
       type: MarkerType.ArrowClosed,
     },
@@ -162,7 +167,8 @@ export const edges = [
     id: 'eroot-6',
     source: 'root',
     target: '6',
-    type: 'smoothstep',
+    type: edgeType,
+    animated: edgeAnimated,
     label: 'smooth step edge',
     style: { stroke: 'red' },
   },
@@ -170,7 +176,8 @@ export const edges = [
     id: 'eroot-7',
     source: 'root',
     target: '7',
-    type: 'smoothstep',
+    type: edgeType,
+    animated: edgeAnimated,
     label: 'smooth step edge',
     style: { stroke: 'purple' },
   },
