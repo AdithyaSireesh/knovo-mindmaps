@@ -1,11 +1,9 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactFlow, { addEdge, MiniMap, Controls, Background, useNodesState, useEdgesState } from 'react-flow-renderer';
 
 import { nodes as initialNodes, edges as initialEdges, edgeType, edgeAnimated } from './exampleMap2';
 import classes from './Mindmap.module.css';
-import ChildIcon from './Node/NodeComponents/Icons/ChildIcon/ChildIcon';
 import { nodeTypes } from './Node/nodeConstants';
-import Popover from '@mui/material/Popover';
 import { nodeColorMap } from './Node/nodeColorMap';
 import { makeid } from './helpers/generalHelpers';
 import dagre from 'dagre';

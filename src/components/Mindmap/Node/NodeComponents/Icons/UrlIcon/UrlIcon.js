@@ -1,8 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import InsertLinkIcon from '@mui/icons-material/InsertLink';
 import Box from '@mui/material/Box';
-import Input from '@mui/material/Input';
-import Button from '@mui/material/Button';
 import EditUrl from '../../NodeEditMenu/EditUrl/EditUrl';
 
 function UrlIcon(props) {
