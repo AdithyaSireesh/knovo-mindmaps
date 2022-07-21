@@ -38,28 +38,3 @@ function EditUrl(props) {
 }
 
 export default EditUrl;
-{
-  /* <Box
-sx={{
-	display: 'flex',
-	flexFlow: 'row',
-	position: 'absolute',
-	zIndex: '1200',
-	top: '-40px',
-	left: '0px',
-	background: 'grey',
-	alignItems: 'center',
-}}
-onClick={() => setClicked(true)}
->
-{clicked && (
-	<>
-		<span>
-			<strong>Url:</strong>
-		</span>
-		<Input value={props.url} ref={inputReference} />
-		<Button sx={{ background: 'lightblue', ':hover': { background: 'lightblue' } }}>update</Button>
-	</>
-)}
-</Box> */
-}

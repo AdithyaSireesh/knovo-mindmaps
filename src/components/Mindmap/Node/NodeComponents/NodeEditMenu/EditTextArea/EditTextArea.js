@@ -16,8 +16,6 @@ function EditTextArea(props) {
         position: 'absolute',
         top: '0px',
         right: '-200px',
-        display: 'flex',
-        flexFlow: 'column',
         boxShadow: 3,
       }}
     >

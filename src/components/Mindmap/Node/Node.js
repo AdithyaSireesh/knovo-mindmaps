@@ -7,7 +7,6 @@ import { Handle, Position } from 'react-flow-renderer';
 import Container from '@mui/material/Container';
 import ChildIcon from './NodeComponents/Icons/ChildIcon/ChildIcon';
 import SiblingIcon from './NodeComponents/Icons/SiblingIcon/SiblingIcon';
-import Box from '@mui/material/Box';
 import NodeEditMenu from './NodeComponents/NodeEditMenu/NodeEditMenu';
 import InsertLinkIcon from '@mui/icons-material/InsertLink';
 function Node(props) {
